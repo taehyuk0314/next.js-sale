@@ -5,9 +5,6 @@ export const metadata: Metadata = {
   title: '로그인',
 }
  
-export default function Home() {
-  return ( 
-  <>
-    <Link href="/mypage">Mypage</Link> 
-  </>)
+export default function Shop() {
+  return <Link href="/mypage">상품들</Link> 
 }

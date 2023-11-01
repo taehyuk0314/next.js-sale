@@ -5,9 +5,6 @@ export const metadata: Metadata = {
   title: '로그인',
 }
  
-export default function Home() {
-  return ( 
-  <>
-    <Link href="/mypage">Mypage</Link> 
-  </>)
+export default function Mypage() {
+  return <Link href="/mypage">Mypage</Link> 
 }
